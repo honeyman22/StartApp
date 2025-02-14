@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tutatrials/features/coffeeshop/presentation/gettingstarted/mainhome.dart';
 import 'package:tutatrials/features/home/presentation/getstarted.dart';
 import 'package:tutatrials/features/home/home.dart';
 
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         '/': (context) => GetStartedPage(),
-        '/home': (context) => HomePage()
+        '/home': (context) => HomePage(),
+        "/coffeehome": (context) => CoffeeshopGettingStarted(),
       },
     );
   }
