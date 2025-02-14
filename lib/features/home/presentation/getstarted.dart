@@ -51,7 +51,8 @@ class GetStartedPage extends StatelessWidget {
                   SizedBox(height: 10),
                   CustomButton(
                       text: "Get Started",
-                      onPressed: () => Navigator.pushNamed(context, '/home'),
+                      onPressed: () =>
+                          Navigator.pushNamed(context, '/coffeehome'),
                       backgroundColor: Color(0xFF1565C0),
                       textColor: Colors.white,
                       width: 280,
