@@ -66,7 +66,7 @@ class CoffeeshopGettingStarted extends StatelessWidget {
                     CustomButton(
                       text: "Get Started",
                       onPressed: () =>
-                          Navigator.pushNamed(context, '/coffehome'),
+                          Navigator.pushNamed(context, '/coffee/home'),
                       backgroundColor: const Color(0xFFC67C4E),
                       textColor: Colors.white,
                       width: 250,
